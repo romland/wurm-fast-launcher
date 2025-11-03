@@ -2,10 +2,11 @@
 This mod fixes a nine year old bug that (may) occur on Windows systems with multiple displays at varying resolutions and refresh rates. It manifests itself by more or less freezing your OS for 5-20 seconds when you start up Wurm Unlimited.  
 
 In addition to the bugfix it also adds:  
+```
 ...one-click login to a server (circumventing launcher) (great for alts!)  
 ...remove "do you want to quit?" warning  
 ...show IP in server browser (for when you want to create one-click logins)  
-
+```
 From a development perspective, this makes it reasonable to test mods! :-)  
 
 ### How to Install  
