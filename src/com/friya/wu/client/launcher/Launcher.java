@@ -207,7 +207,18 @@ public class Launcher implements WurmClientMod, Initable, Configurable
 
 	private void launchGame(String serverPassword, String userNameOverride)
 	{
-		Profile profile = com.wurmonline.client.settings.Profile.getProfile();
+		com.wurmonline.client.settings.Profile profile = com.wurmonline.client.settings.Profile.getProfile();
+
+		/*
+		 This happens in WurmLauncherFX.changeProfile():
+			this.profile.loadPlayer(name);
+			this.userPasswordBox.setText(this.profile.getPassword());
+			this.updateConfigSelection();
+
+		  I hope I get away with just loading player profile and then
+		  associating.
+		*/
+		profile.loadPlayer(userNameOverride);
 
 		profile.associateConfig();
 		WurmClientBase.setServerPassword(serverPassword);
