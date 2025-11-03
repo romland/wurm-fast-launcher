@@ -9,7 +9,7 @@ In addition to the bugfix it also adds:
 From a development perspective, this makes it reasonable to test mods! :-)  
 
 ### How to Install  
-Download here: https://github.com/romland/wurm-fast-launcher/releases/tag/1.0
+Download here: https://github.com/romland/wurm-fast-launcher/releases/tag/1.1
 
 NOTE: this is a _client_ mod. Do not install on server.  
 Extract to your client folder (\WurmLauncher) (basically, install like any other mod).  
